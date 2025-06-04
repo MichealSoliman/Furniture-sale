@@ -6,7 +6,7 @@ const Selling = () => {
   return (
     <section
       id="selling-furniture"
-      className="relative overflow-hidden py-20 px-6 md:px-16 text-white bg-gradient-to-br from-[#2b2b2b] via-[#3d3d3d] to-[#1a1a1a]"
+      className="relative overflow-hidden py-5 px-6 md:px-16 text-white bg-gradient-to-br from-[#2b2b2b] via-[#3d3d3d] to-[#1a1a1a]"
       dir="rtl"
     >
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">

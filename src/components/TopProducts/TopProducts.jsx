@@ -31,10 +31,10 @@ const ProductsData = [
 const TopProducts = ({ handleOrderPopup }) => {
   return (
     <div>
-      <div className="container">
+      <div className="container py-5">
         {/* Header section */}
-        <div className="text-center py-5 pb-5 mb-24" dir="rtl">
-          <p data-aos="fade-up" className="text-sm text-primary">
+        <div className="text-center py-5 pt-5 pb-5 mb-24" dir="rtl">
+          <p data-aos="fade-up" className="text-sm text-primary pt-4">
             أفضل المنتجات تقييمًا لك
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">

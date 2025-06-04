@@ -36,7 +36,7 @@ const featureCards = [
 
 const About = () => {
   return (
-    <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900" id="about" dir="rtl">
+    <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900 container" id="about" dir="rtl">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
           
