@@ -1,0 +1,79 @@
+{
+  "hash": "b598c017",
+  "configHash": "04f13650",
+  "lockfileHash": "39cb53a6",
+  "browserHash": "2328d4c5",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "253d1a22",
+      "needsInterop": true
+    },
+    "react-icons/gr": {
+      "src": "../../node_modules/react-icons/gr/index.esm.js",
+      "file": "react-icons_gr.js",
+      "fileHash": "522b3582",
+      "needsInterop": false
+    },
+    "react-icons/io5": {
+      "src": "../../node_modules/react-icons/io5/index.esm.js",
+      "file": "react-icons_io5.js",
+      "fileHash": "30d0b5f1",
+      "needsInterop": false
+    },
+    "react-icons/gi": {
+      "src": "../../node_modules/react-icons/gi/index.esm.js",
+      "file": "react-icons_gi.js",
+      "fileHash": "a23ef2ef",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "acfe430f",
+      "needsInterop": true
+    },
+    "aos": {
+      "src": "../../node_modules/aos/dist/aos.js",
+      "file": "aos.js",
+      "fileHash": "22c36047",
+      "needsInterop": true
+    },
+    "react-icons/fa6": {
+      "src": "../../node_modules/react-icons/fa6/index.esm.js",
+      "file": "react-icons_fa6.js",
+      "fileHash": "b7d6dc70",
+      "needsInterop": false
+    },
+    "react-icons/io": {
+      "src": "../../node_modules/react-icons/io/index.esm.js",
+      "file": "react-icons_io.js",
+      "fileHash": "cfe70840",
+      "needsInterop": false
+    },
+    "react-icons/fa": {
+      "src": "../../node_modules/react-icons/fa/index.esm.js",
+      "file": "react-icons_fa.js",
+      "fileHash": "8a83ee5e",
+      "needsInterop": false
+    },
+    "react-slick": {
+      "src": "../../node_modules/react-slick/lib/index.js",
+      "file": "react-slick.js",
+      "fileHash": "7e500623",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-IQXTS5WO": {
+      "file": "chunk-IQXTS5WO.js"
+    },
+    "chunk-UM3JHGVO": {
+      "file": "chunk-UM3JHGVO.js"
+    },
+    "chunk-CEQRFMJQ": {
+      "file": "chunk-CEQRFMJQ.js"
+    }
+  }
+}
