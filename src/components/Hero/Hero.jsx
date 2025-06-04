@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import Image1 from "../../assets/hero/pexels-chaitaastic-1918291.jpg"; // Replace with actual path
 import Image2 from "../../assets/hero/pexels-pixabay-271624.jpg"; // Replace with actual path
@@ -113,4 +111,3 @@ const Hero = ({ handleOrderPopup }) => {
 };
 
 export default Hero;
-
