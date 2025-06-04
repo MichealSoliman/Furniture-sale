@@ -36,13 +36,22 @@ const worksData = [
 const OurWorks = () => {
   return (
   
-
-    <section className="py-12 md:py-20 bg-gradient-to-br from-blue-50 via-white to-blue-100" dir='rtl'>
+// bg-gradient-to-br from-blue-50 via-white to-blue-100
+    <section className="py-12 md:py-20 " dir='rtl'>
      
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 md:mb-16 text-gray-800">
-          أبرز عمليات بيع الأثاث في جدة
-        </h2>
+      <div className="text-center mb-12 max-w-[700px] mx-auto">
+  <p data-aos="fade-up" className="text-sm text-primary">
+    أعمالنا في بيع الأثاث بجدة
+  </p>
+  <h1 data-aos="fade-up" className="text-4xl font-bold mb-4 py-3">
+    نظرة على ما نقدمه
+  </h1>
+  <p data-aos="fade-up" className="text-gray-600 text-base leading-relaxed">
+    في شركتنا، نتميز بتوفير مجموعة واسعة من قطع الأثاث التي تجمع بين الأناقة والوظيفة. نقدم تصاميم فريدة تناسب جميع الأذواق، مع خدمات تغليف وتوصيل احترافية داخل جدة. .
+  </p>
+</div>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
           {worksData.map((work) => (
             <div
