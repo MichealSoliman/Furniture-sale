@@ -125,9 +125,15 @@ const QuestionS = () => {
     ].map((question, index) => (
       <div
         key={index}
-        className="bg-white shadow rounded-xl p-4 w-56 text-sm text-gray-700 font-medium border-r-4 border-primary hover:shadow-lg transition cursor-pointer"
+        className="relative w-56 overflow-hidden rounded-xl cursor-pointer group text-sm font-medium "
       >
-        {question}
+        {/* الخلفية المتحركة */}
+        <div className="absolute right-0 top-0 h-full w-2 bg-primary transition-all duration-500 group-hover:w-full"></div>
+
+        {/* محتوى السؤال */}
+        <div className="relative z-10 p-4 transition-colors duration-500 group-hover:text-white">
+          {question}
+        </div>
       </div>
     ))}
   </div>
@@ -144,6 +150,7 @@ const QuestionS = () => {
     </a>
   </div>
 </div>
+
 
     </section>
   );
