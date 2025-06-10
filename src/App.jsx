@@ -22,6 +22,7 @@ import QuestionS from "./components/Questions";
 import Selling from "./components/Selling";
 import CityMap from "./components/CityMap";
 import OurWorks from "./components/OurWorks";
+import LuxuryFurniture from "./components/LuxuryFurniture";
 
 
 const App = () => {
@@ -50,13 +51,14 @@ const App = () => {
       <Banner />
      
       <ContactUs/>
-      <Gallery />
+     <LuxuryFurniture />
       <Products />
       <Features />
       <Services />
       <Selling />
       <OurWorks />
-      <Testimonials />
+      <Testimonials /> 
+      <Gallery />
       <QuestionS />
       <CityMap />
       <FloatingButtons />
